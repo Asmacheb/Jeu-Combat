@@ -186,6 +186,7 @@ form :hover{
     margin-left: 27%;
 }
 
+
 .play :hover{
     background-color: #2E404C;
     color: white;
@@ -232,7 +233,7 @@ form :hover{
 
  /* javascript */
 
- .griser{
+ .grise{
     filter: grayscale(100%);
  }
 
@@ -253,6 +254,7 @@ form :hover{
     background-color: #C7743E;
     color: white;
     border: 2px solid white;
+    display: none;
   }
   @keyframes zoomInOut {
     0% {
@@ -361,4 +363,39 @@ form :hover{
     border: 2px solid #BB1A1A;
     background-color:#C7743E;
     transform: scale(1.4);
+ }
+
+
+ .J1GAGNE{
+    
+    color: #C7743E;
+    top:40%;
+    left: 50%;
+    position: absolute;
+    z-index: 6;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    font-weight: bold;
+    border: 3px solid white;
+    -webkit-text-stroke-color: #C7743E;
+    -webkit-text-stroke-width: 1px;
+    display: none;
+    background-color: white;
+    
+ }
+ .J2GAGNE{
+    
+    color: #C7743E;
+    top:40%;
+    left: 50%;
+    position: absolute;
+    z-index: 6;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    font-weight: bold;
+    border: 3px solid white;
+    -webkit-text-stroke-color: #C7743E;
+    -webkit-text-stroke-width: 1px;
+    display: none;
+    background-color: white;
  }
